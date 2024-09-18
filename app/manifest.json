@@ -7,7 +7,7 @@
     "description": "Una aplicación SAPUI5 para la información de personajes del videojuego de móvil 'Dokkan Battle'",
     "dataSources": {
       "odataService": {
-        "uri": "/odata/Caracters/",
+        "uri": "/odata/Caracteres/",
         "type": "OData",
         "settings": {
           "odataVersion": "4.0",
@@ -37,7 +37,7 @@
         "settings": {
           "defaultBindingMode": "TwoWay",
           "defaultCountMode": "Inline",
-          "serviceUrl": "/odata/Login/"
+          "serviceUrl": "/odata/Caracteres/"
         }
       }
     },

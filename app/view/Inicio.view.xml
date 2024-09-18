@@ -20,7 +20,7 @@
         >
             <Image 
                 src="Titulo.png"
-                width="400px"
+                width="700px"
             />
         
         </FlexBox>
