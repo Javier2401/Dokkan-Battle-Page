@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+        <title> Dokkan Wiki </title>
+
+        <script id="sap-ui-bootstrap"
+                src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+                data-sap-ui-theme="sap_horizon"
+                data-sap-ui-libs="sap.m, sap.ui.core, sap.ui.layout, sap.tnt, sap.ui.comp"
+                data-sap-ui-resourceroots='{"DokkanProject": "./"}'
+                data-sap-ui-compatVersion="edge"
+                data-sap-ui-async="true">
+        </script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfkit/0.11.0/pdfkit.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfkit/0.11.0/pdfkit.js.map"></script>
+        
+    </head>
+
+    <body class="sapUiBody" id="content"/></body>
+
+    <script>
+        sap.ui.getCore().attachInit(function() {
+            sap.ui.require(["sap/ui/core/ComponentContainer"], function(ComponentContainer) {
+                new ComponentContainer({
+                    name: "DokkanProject",
+                    async: true
+                }).placeAt("content");
+            });
+        });
+    </script>
+
+</html>

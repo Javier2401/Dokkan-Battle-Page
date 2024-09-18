@@ -1,0 +1,12 @@
+{
+  "name": "dokkan",
+  "version": "1.0.0",
+  "description": "Proyecto Javier",
+  "main": "Component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Alexander Paltan Lombeida",
+  "license": "ISC",
+  "keywords": []
+}

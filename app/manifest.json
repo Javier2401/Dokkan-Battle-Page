@@ -1,0 +1,77 @@
+{
+  "_version": "1.58.0",
+  "sap.app": {
+    "id": "DokkanProject",
+    "type": "application",
+    "title": "Dokkan Project",  
+    "description": "Una aplicación SAPUI5 para la información de personajes del videojuego de móvil 'Dokkan Battle'",
+    "dataSources": {
+      "odataService": {
+        "uri": "/odata/Caracters/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "4.0",
+          "localUri": ""
+        }
+      }
+    }
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {},
+        "sap.ui.layout": {},
+        "sap.f": {}
+      }
+    },
+    "rootView": {
+      "viewName": "DokkanProject.view.Inicio", 
+      "type": "XML",
+      "async": true,
+      "id": "Inicio"
+    },
+    "models": {
+      "": {
+        "type": "sap.ui.model.odata.v2.ODataModel",
+        "settings": {
+          "defaultBindingMode": "TwoWay",
+          "defaultCountMode": "Inline",
+          "serviceUrl": "/odata/Login/"
+        }
+      }
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "DokkanProject.view", 
+        "controlAggregation": "pages",
+        "controlId": "App"
+      },
+      "routes": [
+        {
+          "pattern": "inicio",
+          "name": "Inicio",
+          "target": "Inicio"
+        }
+      ],
+      "targets": {
+        "App": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Inicio",
+          "viewName": "Inicio",
+          "controlId": "Inicio",
+          "controlAggregation": "pages",
+          "viewLevel": 1
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5"
+  }
+}
