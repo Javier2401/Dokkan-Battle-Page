@@ -1,15 +1,38 @@
-/* Estilos Pagina Inicio */
-.fondo1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    background-color: #f0f0f0; 
+/* Pagina Inicio */
+.fondoInicio {
+    background-color: aqua;
 }
 
-.imageCenter {
-    margin-top: 20px; 
+.tituloInicio {
+    font-size: 45px !important;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.fondoImagenInicio {
+    background-color: burlywood !important;
+    width: 100%;
+    height: auto; 
+    padding: 4px 10px;
+}
+
+.imagenInicio {
+    margin-top: 10px;
+}
+
+.fondoBotonesInicio {
+    background-color: burlywood !important;
+    width: 100%;
+    height: auto;
+    padding: 4px 10px;
+}
+
+.botonesInicio {
+    margin: 0 10px !important;
+    margin-bottom: 5px !important;
+    color: black !important; 
+    background-color: transparent !important; 
 }
 
 .welcomeText {

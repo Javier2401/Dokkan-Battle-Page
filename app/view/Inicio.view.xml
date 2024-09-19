@@ -12,23 +12,132 @@
 >
 
     <App id="Inicio">
+
         <Page 
             showHeader="false"
-            backgroundDesign="Solid"
-            class="fondo1"
+            class="fondoInicio" 
         >
-            <Image 
-                src="../images/titulo.png"
-                height="200px"
-                width="400px"
-                class="imageCenter"
-            />
+            <HBox 
+                justifyContent="Start"  
+                alignItems="Start"    
+                class="fondoImagenInicio"  
+            >
+                <Image 
+                    src="../images/titulo.png"
+                    height="100px"
+                    width="175px"
+                    class="imagenInicio"
+                />
+
+                <Text text="Dragon Ball Z Dokkan Battle Info Page" class="tituloInicio" />
+            </HBox>
+
+            <HBox 
+                justifyContent="Center"  
+                alignItems="Center"    
+                class="fondoBotonesInicio"  
+            >
+                <Button text="NEWS" class="botonesInicio" />
+
+                <MenuButton text="CHARACTERS" class="botonesInicio">
+                    <Menu>
+                        <MenuItem text="Name"/>
+                        <MenuItem text="Rarities">
+                            <items>
+                                <MenuItem text="EZA's"/>
+                                <MenuItem text="LR"/>
+                                <MenuItem text="UR"/>
+                                <MenuItem text="SSR"/>
+                                <MenuItem text="SR"/>
+                                <MenuItem text="R"/>
+                                <MenuItem text="N"/>
+                            </items>
+                        </MenuItem>
+                        <MenuItem text="Types">
+                            <items>
+                                <MenuItem text="AGL"/>
+                                <MenuItem text="STR"/>
+                                <MenuItem text="TEQ"/>
+                                <MenuItem text="PHY"/>
+                                <MenuItem text="INT"/>
+                            </items>
+                        </MenuItem>
+                        <MenuItem text="Classes">
+                            <items>
+                                <MenuItem text="Super Class">
+                                    <items>
+                                        <MenuItem text="SUPER AGL"/>
+                                        <MenuItem text="SUPER STR"/>
+                                        <MenuItem text="SUPER TEQ"/>
+                                        <MenuItem text="SUPER PHY"/>
+                                        <MenuItem text="SUPER INT"/>
+                                    </items>
+                                </MenuItem>
+                                <MenuItem text="Extreme Class">
+                                    <items>
+                                        <MenuItem text="EXTREME AGL"/>
+                                        <MenuItem text="EXTREME STR"/>
+                                        <MenuItem text="EXTREME TEQ"/>
+                                        <MenuItem text="EXTREME PHY"/>
+                                        <MenuItem text="EXTREME INT"/>
+                                    </items>
+                                </MenuItem>
+                            </items>
+                        </MenuItem>    
+                        <MenuItem text="Categories"/>
+                    </Menu>
+                </MenuButton>
+
+                <MenuButton text="EVENTS" class="botonesInicio">
+                    <Menu>
+                        <MenuItem text="Events I" />
+                        <MenuItem text="Events II" />
+                        <MenuItem text="Events III" />
+                    </Menu>
+                </MenuButton>
+
+                <Button text="SUMMONS" class="botonesInicio" />
+
+                <MenuButton text="ITEMS" class="botonesInicio">
+                    <Menu>
+                        <MenuItem text="Awakening Medals">
+                            <items>
+                                <MenuItem text ="Awakening Medals I"/>
+                                <MenuItem text ="Awakening Medals II"/>
+                            </items>
+                        </MenuItem>
+                        <MenuItem text="Support">
+                            <items>
+                                <MenuItem text ="Items"/>
+                                <MenuItem text ="Memories"/>
+                            </items>
+                        </MenuItem>
+                        <MenuItem text="Training">
+                            <items>
+                                <MenuItem text ="Items"/>
+                                <MenuItem text ="Location"/>
+                            </items>
+                        </MenuItem>
+                        <MenuItem text="Orbs">
+                            <items>
+                                <MenuItem text ="Potencial Orbs"/>
+                                <MenuItem text ="Skill Orbs"/>
+                                <MenuItem text ="Link Skill Orbs"/>
+                            </items>
+                        </MenuItem>
+                    </Menu>
+                </MenuButton>
+            </HBox>
+            
+                        
 
             <Text 
                 text="Welcome to the Dokkan Battle page!"
                 class="welcomeText"
             />
+
         </Page>
+
     </App>
 
 </mvc:View>
