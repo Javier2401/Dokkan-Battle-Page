@@ -1,20 +1,32 @@
-/* Pagina Inicio */
+/* ESTILOS PAGINA 'INICIO' */
 .fondoInicio {
-    background-color: aqua;
+
+}
+
+.fondoTituloInicio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
 }
 
 .tituloInicio {
     font-size: 45px !important;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 60px;
+    text-align: center; 
+    width: 100%; 
+    margin-left: -200px;
 }
 
 .fondoImagenInicio {
     background-color: burlywood !important;
     width: 100%;
     height: auto; 
-    padding: 4px 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center; 
 }
 
 .imagenInicio {
@@ -25,7 +37,7 @@
     background-color: burlywood !important;
     width: 100%;
     height: auto;
-    padding: 4px 10px;
+    padding: 5px 10px;
 }
 
 .botonesInicio {
@@ -35,10 +47,8 @@
     background-color: transparent !important; 
 }
 
-.welcomeText {
-    font-size: 24px; 
-    font-weight: bold; 
-    text-align: center;
-    margin-top: 20px; 
-    color: #000; 
+
+/* ESTILOS PAGINA 'NEWS' */
+.fondoNews{
+    background-color: brown;
 }

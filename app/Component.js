@@ -12,17 +12,18 @@ sap.ui.define([
         },
 
         init: function() {
-           
             UIComponent.prototype.init.apply(this, arguments);
 
             var oModeloGlobal = new JSONModel({
                 infoPantallaInicio: {
-                    id: "",
-                    nombre: ""
+                    
                 }
             });
             
             this.setModel(oModeloGlobal, "global"); 
+
+            // Inicializa el enrutador
+            this.getRouter().initialize();
         }
     });
 });

@@ -18,68 +18,71 @@
             class="fondoInicio" 
         >
             <HBox 
-                justifyContent="Start"  
-                alignItems="Start"    
-                class="fondoImagenInicio"  
+                alignItems="Center"    
+                class="fondoImagenInicio"
+                width="100%" 
             >
                 <Image 
                     src="../images/titulo.png"
-                    height="100px"
-                    width="175px"
+                    height="120px"
+                    width="200px"
                     class="imagenInicio"
                 />
 
-                <Text text="Dragon Ball Z Dokkan Battle Info Page" class="tituloInicio" />
+                <VBox class="fondoTituloInicio" width="100%" alignItems="Center">
+                    <Text text="Dragon Ball Z Dokkan Battle Info Page" textAlign="Center" class="tituloInicio" />
+                </VBox>
             </HBox>
+
 
             <HBox 
                 justifyContent="Center"  
                 alignItems="Center"    
                 class="fondoBotonesInicio"  
             >
-                <Button text="NEWS" class="botonesInicio" />
+                <Button id="botonNews" text="NEWS" class="botonesInicio" press="onCambiarPantalla" />
 
                 <MenuButton text="CHARACTERS" class="botonesInicio">
                     <Menu>
-                        <MenuItem text="Name"/>
+                        <MenuItem id="botonName" text="Name"/>
                         <MenuItem text="Rarities">
                             <items>
-                                <MenuItem text="EZA's"/>
-                                <MenuItem text="LR"/>
-                                <MenuItem text="UR"/>
-                                <MenuItem text="SSR"/>
-                                <MenuItem text="SR"/>
-                                <MenuItem text="R"/>
-                                <MenuItem text="N"/>
+                                <MenuItem id="botonEZA" text="EZA's"/>
+                                <MenuItem id="botonLR" text="LR"/>
+                                <MenuItem id="botonUR" text="UR"/>
+                                <MenuItem id="botonSSR" text="SSR"/>
+                                <MenuItem id="botonSR" text="SR"/>
+                                <MenuItem id="botonR" text="R"/>
+                                <MenuItem id="botonN" text="N"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Types">
                             <items>
-                                <MenuItem text="AGL"/>
-                                <MenuItem text="STR"/>
-                                <MenuItem text="TEQ"/>
-                                <MenuItem text="PHY"/>
-                                <MenuItem text="INT"/>
+                                <MenuItem id="botonAGL" text="AGL"/>
+                                <MenuItem id="botonSTR" text="STR"/>
+                                <MenuItem id="botonTEQ" text="TEQ"/>
+                                <MenuItem id="botonPHY" text="PHY"/>
+                                <MenuItem id="botonINT" text="INT"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Classes">
                             <items>
                                 <MenuItem text="Super Class">
                                     <items>
-                                        <MenuItem text="SUPER AGL"/>
-                                        <MenuItem text="SUPER STR"/>
-                                        <MenuItem text="SUPER TEQ"/>
-                                        <MenuItem text="SUPER PHY"/>
-                                        <MenuItem text="SUPER INT"/>
+                                        <MenuItem id="botonSuperAGL" text="SUPER AGL"/>
+                                        <MenuItem id="botonSuperSTR" text="SUPER STR"/>
+                                        <MenuItem id="botonSuperTEQ" text="SUPER TEQ"/>
+                                        <MenuItem id="botonSuperPHY" text="SUPER PHY"/>
+                                        <MenuItem id="botonSuperINT" text="SUPER INT"/>
                                     </items>
                                 </MenuItem>
                                 <MenuItem text="Extreme Class">
                                     <items>
-                                        <MenuItem text="EXTREME AGL"/>
-                                        <MenuItem text="EXTREME STR"/>
-                                        <MenuItem text="EXTREME TEQ"/>
-                                        <MenuItem text="EXTREME PHY"/>
-                                        <MenuItem text="EXTREME INT"/>
+                                        <MenuItem id="botonExtremeAGL" text="EXTREME AGL"/>
+                                        <MenuItem id="botonExtremeSTR" text="EXTREME STR"/>
+                                        <MenuItem id="botonExtremeTEQ" text="EXTREME TEQ"/>
+                                        <MenuItem id="botonExtremePHY" text="EXTREME PHY"/>
+                                        <MenuItem id="botonExtremeINT" text="EXTREME INT"/>
                                     </items>
                                 </MenuItem>
                             </items>
@@ -90,52 +93,45 @@
 
                 <MenuButton text="EVENTS" class="botonesInicio">
                     <Menu>
-                        <MenuItem text="Events I" />
-                        <MenuItem text="Events II" />
-                        <MenuItem text="Events III" />
+                        <MenuItem id="botonEventosI" text="Events I" />
+                        <MenuItem id="botonEventosII" text="Events II" />
+                        <MenuItem id="botonEventosIII" text="Events III" />
                     </Menu>
                 </MenuButton>
 
-                <Button text="SUMMONS" class="botonesInicio" />
+                <Button text="SUMMONS" id="botonSummons" class="botonesInicio" />
 
                 <MenuButton text="ITEMS" class="botonesInicio">
                     <Menu>
                         <MenuItem text="Awakening Medals">
                             <items>
-                                <MenuItem text ="Awakening Medals I"/>
-                                <MenuItem text ="Awakening Medals II"/>
+                                <MenuItem id="botonAwakeningI" text ="Awakening Medals I"/>
+                                <MenuItem id="botonAwakeningII" text ="Awakening Medals II"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Support">
                             <items>
-                                <MenuItem text ="Items"/>
-                                <MenuItem text ="Memories"/>
+                                <MenuItem id="botonSupportItems" text ="Items"/>
+                                <MenuItem id="botonMemories" text ="Memories"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Training">
                             <items>
-                                <MenuItem text ="Items"/>
-                                <MenuItem text ="Location"/>
+                                <MenuItem id="botonTrainingItems" text ="Items"/>
+                                <MenuItem id="botonTrainingLocation" text ="Location"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Orbs">
                             <items>
-                                <MenuItem text ="Potencial Orbs"/>
-                                <MenuItem text ="Skill Orbs"/>
-                                <MenuItem text ="Link Skill Orbs"/>
+                                <MenuItem id="botonPotencialOrbs" text ="Potencial Orbs"/>
+                                <MenuItem id="botonSkillOrbs" text ="Skill Orbs"/>
+                                <MenuItem id="botonLinkSkillOrbs" text ="Link Skill Orbs"/>
                             </items>
                         </MenuItem>
                     </Menu>
                 </MenuButton>
             </HBox>
             
-                        
-
-            <Text 
-                text="Welcome to the Dokkan Battle page!"
-                class="welcomeText"
-            />
-
         </Page>
 
     </App>

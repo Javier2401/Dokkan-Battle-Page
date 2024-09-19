@@ -1,0 +1,27 @@
+<mvc:View
+    controllerName="DokkanProject.controller.News"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:f="sap.f"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+>
+
+    <App id="News">
+
+        <Page>
+            <Image 
+                src="../images/titulo.png"
+                height="120px"
+                width="200px"
+                class="imagenInicio"
+                />
+        </Page>
+        
+    </App>
+
+</mvc:View>

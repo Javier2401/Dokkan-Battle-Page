@@ -31,47 +31,48 @@
       "async": true,
       "id": "Inicio"
     },
-    "models": {
-      "": {
-        "type": "sap.ui.model.odata.v2.ODataModel",
-        "settings": {
-          "defaultBindingMode": "TwoWay",
-          "defaultCountMode": "Inline",
-          "serviceUrl": "/odata/Caracteres/"
-        }
-      }
-    },
     "routing": {
       "config": {
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "DokkanProject.view", 
+        "viewPath": "DokkanProject.view",
+        "controlId": "Inicio",
         "controlAggregation": "pages",
-        "controlId": "App"
+        "transition": "slide"
       },
       "routes": [
         {
           "pattern": "inicio",
           "name": "Inicio",
           "target": "Inicio"
+        },
+        {
+          "pattern": "news",
+          "name": "News",
+          "target": "News"
         }
       ],
       "targets": {
-        "App": {
+        "Inicio": {
           "viewType": "XML",
           "transition": "slide",
-          "clearControlAggregation": false,
-          "viewId": "Inicio",
           "viewName": "Inicio",
           "controlId": "Inicio",
           "controlAggregation": "pages",
+          "viewId": "Inicio",
           "viewLevel": 1
+        },
+        "News": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "News",
+          "viewId": "News",
+          "viewLevel": 2
         }
       }
     }
-  },
-  "sap.ui": {
-    "technology": "UI5"
   }
 }
