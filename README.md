@@ -1,25 +1,16 @@
-# Getting Started
+# DRAGON BALL  DOKKAN BATTLE PAGE INFO
+Proyecto creado por Javier Alexander Paltan Lombeida.
 
-Welcome to your new project.
+# Tecnologia usada
+Desarrollado en el entorno de SAP CAP Cloud Application usando JavaScript, XML, CSS...etc.
 
-It contains these folders and files, following our recommended project layout:
+# Iniciar proyecto
+Para que el proyecto pueda funcionar en tu dispositivo, tendras que descargarte dos cosas:
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+    - La aplicacion Node.js.
+    - NPM, esto de por si no es una aplicacion, tendras que ir a la terminal del entorno de desarrollo donde hayas importado mi proyecto y poner esto 'npm install'.
 
+Despues de todo esto, para ejecutar la aplicacion tendras que ir de nuevo a la terminal y hacer un 'npm start' o un 'cds serve', si todo esta correcto os saldra que el servido se esta ejecutando en el localhost:4004.
 
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
+# Planes a futuro
+Ahora mismo el proyecto no esta mas que empezando, todavia queda mucho por investigar y implementar. De una cosa estoy seguro, esta aplicacion aunque cueste en acabarlo 3 o 6 meses mas no parara hasta que tenga todo lo que planee desde un inicio hacer.

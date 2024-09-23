@@ -13,7 +13,10 @@
 
     <App id="News">
 
-        <Page>
+        <Page
+            showHeader="false"
+            class="fondoNews"
+        >
             <Image 
                 src="../images/titulo.png"
                 height="120px"

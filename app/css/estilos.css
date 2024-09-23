@@ -1,6 +1,6 @@
 /* ESTILOS PAGINA 'INICIO' */
 .fondoInicio {
-
+    background-color: darkgray !important;
 }
 
 .fondoTituloInicio {
@@ -50,5 +50,5 @@
 
 /* ESTILOS PAGINA 'NEWS' */
 .fondoNews{
-    background-color: brown;
+    background-color: brown !important;
 }

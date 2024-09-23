@@ -22,7 +22,6 @@ sap.ui.define([
             
             this.setModel(oModeloGlobal, "global"); 
 
-            // Inicializa el enrutador
             this.getRouter().initialize();
         }
     });
