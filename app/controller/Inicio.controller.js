@@ -8,12 +8,14 @@ sap.ui.define([
 
         },
 
-        onCambiarPantalla: function() {
-            console.log("PRUEBA 1");
+        onCambiarPantalla1: function() {
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            console.log("PRUEBA 2");
             oRouter.navTo("News");
-            console.log("PRUEBA 3");
+        },
+
+        onCambiarPantalla2: function() {
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("Summons");
         }
         
     });

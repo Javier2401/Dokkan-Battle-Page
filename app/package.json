@@ -1,7 +1,7 @@
 {
-  "name": "dokkan",
+  "name": "Dragon Ball Z Dokkan Battle Page Info",
   "version": "1.0.0",
-  "description": "Proyecto Javier",
+  "description": "Una aplicación SAPUI5 para la información de personajes del videojuego de móvil 'Dokkan Battle'",
   "main": "Component.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -51,6 +51,11 @@
           "pattern": "news",
           "name": "News",
           "target": "News"
+        },
+        {
+          "pattern": "summons",
+          "name": "Summons",
+          "target": "Summons"
         }
       ],
       "targets": {
@@ -71,6 +76,15 @@
           "viewName": "News",
           "viewId": "News",
           "viewLevel": 2
+        },
+        "Summons": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "Summons",
+          "viewId": "Summons",
+          "viewLevel": 3
         }
       }
     }

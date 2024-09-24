@@ -1,14 +1,26 @@
-/* ESTILOS PAGINA 'INICIO' */
-.fondoInicio {
-    background-color: darkgray !important;
+/* ESTILOS GLOBALES */
+.fondoWeb {
+
 }
 
+.fondoHeaders { 
+    background-color: burlywood !important;
+    width: 100%;
+    height: auto; 
+    padding: 10px 15px;
+}
+
+.tituloHeaders {
+    font-size: 45px !important;
+    font-weight: bolder;
+}
+
+
+/* ESTILOS PAGINA 'INICIO' */
 .fondoTituloInicio {
     display: flex;
     justify-content: center;
-    width: 100%;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .tituloInicio {
@@ -18,6 +30,7 @@
     text-align: center; 
     width: 100%; 
     margin-left: -200px;
+    margin-bottom: 15px;
 }
 
 .fondoImagenInicio {
@@ -47,8 +60,45 @@
     background-color: transparent !important; 
 }
 
+.fondoPersonajesInicio {
+    background-color: darkgray !important; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    height: auto; 
+    width: fit-content; 
+    padding: 5px 5px;
+    margin: 20px auto; 
+    gap: 25px; 
+}
+
+.personajesInicio {
+    width: 160px; 
+    height: 160px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; 
+}
+
+.tituloPersonajesInicio {
+    font-size: 25px !important;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.personajesInicio:hover {
+    transform: scale(1.05); 
+}
+
+.personajeRojo {
+    border: 5px solid #ff4c4c !important; 
+}
+
+.personajeVerde {
+    border: 5px solid #4caf50 !important;  
+}
+
+
 
 /* ESTILOS PAGINA 'NEWS' */
-.fondoNews{
-    background-color: brown !important;
-}
+
+/* ESTILOS PAGINA 'SUMMONS' */

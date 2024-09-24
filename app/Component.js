@@ -15,13 +15,9 @@ sap.ui.define([
             UIComponent.prototype.init.apply(this, arguments);
 
             var oModeloGlobal = new JSONModel({
-                infoPantallaInicio: {
-                    
-                }
             });
             
             this.setModel(oModeloGlobal, "global"); 
-
             this.getRouter().initialize();
         }
     });

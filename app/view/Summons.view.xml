@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="DokkanProject.controller.News"
+    controllerName="DokkanProject.controller.Summons"
     xmlns:cssgrid="sap.ui.layout.cssgrid"
     xmlns:f="sap.f"
     displayBlock="true"
@@ -11,11 +11,11 @@
     xmlns:u="sap.ui.unified"
 >
 
-    <App id="News">
+    <App id = "Summons">
 
-        <Page
-            showHeader="false"
-            class="fondoWeb"
+        <Page 
+            showHeader = "false"
+            class = "fondoWeb"
         >
             <FlexBox
                 class="fondoHeaders"
@@ -23,13 +23,11 @@
                 justifyContent="Center"
                 alignItems="Center"
             >   
-                <Text text="News" class="tituloHeaders"/>
+                <Text text="Summons" class="tituloHeaders"/>
             </FlexBox>
-
-            
-
-        </Page>
         
+        </Page>
+
     </App>
 
 </mvc:View>

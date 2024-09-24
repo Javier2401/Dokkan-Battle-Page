@@ -5,8 +5,7 @@ sap.ui.define([
     return Controller.extend("DokkanProject.controller.News", {
 
         onInit: function() {
-            console.log("News controller initialized");
-
+            console.log("Bienvenido a la pagina 'News'");
         }
 
     });

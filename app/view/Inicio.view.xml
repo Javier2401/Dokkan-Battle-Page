@@ -10,12 +10,11 @@
     xmlns:tnt="sap.tnt"
     xmlns:u="sap.ui.unified"
 >
-
     <App id="Inicio">
 
         <Page 
             showHeader="false"
-            class="fondoInicio" 
+            class="fondoWeb" 
         >
             <HBox 
                 alignItems="Center"    
@@ -30,17 +29,16 @@
                 />
 
                 <VBox class="fondoTituloInicio" width="100%" alignItems="Center">
-                    <Text text="Dragon Ball Z Dokkan Battle Info Page" textAlign="Center" class="tituloInicio" />
+                    <Text text="DRAGON BALL Z DOKKAN BATTLE INFO PAGE" textAlign="Center" class="tituloInicio" />
                 </VBox>
             </HBox>
-
 
             <HBox 
                 justifyContent="Center"  
                 alignItems="Center"    
                 class="fondoBotonesInicio"  
             >
-                <Button id="botonNews" text="NEWS" class="botonesInicio" press="onCambiarPantalla" />
+                <Button id="botonNews" text="NEWS" class="botonesInicio" press="onCambiarPantalla1" />
 
                 <MenuButton text="CHARACTERS" class="botonesInicio">
                     <Menu>
@@ -99,7 +97,7 @@
                     </Menu>
                 </MenuButton>
 
-                <Button text="SUMMONS" id="botonSummons" class="botonesInicio" />
+                <Button text="SUMMONS" id="botonSummons" class="botonesInicio" press="onCambiarPantalla2"/>
 
                 <MenuButton text="ITEMS" class="botonesInicio">
                     <Menu>
@@ -131,9 +129,36 @@
                     </Menu>
                 </MenuButton>
             </HBox>
+
+
+            <VBox 
+                class="fondoPersonajesInicio" 
+                alignItems="Center" 
+            >
+                <Text text="Upcoming Cards" textAlign="Center" class="tituloPersonajesInicio" />
+                <HBox 
+                    alignItems="Center" 
+                    justifyContent="Center" 
+                    class="fondoPersonajesInicio"
+                >
+                    <Image 
+                        src="https://dokkan.art/assets/thumb/card_4029480_thumb.webp" 
+                        class="personajesInicio personajeRojo"
+                    />
+
+                    <Image 
+                        src="https://dokkan.art/assets/thumb/card_1029440_thumb.webp" 
+                        class="personajesInicio personajeVerde"
+                    />
+
+                    <Image 
+                        src="https://dokkan.art/assets/thumb/card_1029620_thumb.webp" 
+                        class="personajesInicio personajeVerde"
+                    />
+                </HBox>
+            </VBox>
             
         </Page>
 
     </App>
-
 </mvc:View>
