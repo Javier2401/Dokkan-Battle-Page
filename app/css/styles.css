@@ -1,0 +1,152 @@
+/* Styles used throughout the project */
+.backgroundWeb {
+    background-color: aliceblue;
+}
+
+.backgroundHeaders { 
+    background-color: burlywood !important;
+    width: 100%;
+    height: auto; 
+    padding: 10px 15px;
+}
+
+.titleHeaders {
+    font-size: 45px !important;
+    font-weight: bolder;
+}
+
+.LR {
+    width: 70px;  
+}
+
+.UR {
+    width: 95px;  
+}
+
+.SSR {
+    width: 100px;
+}
+
+.SR {
+    width: auto;
+}
+
+.R {
+    width: auto;
+}
+
+.N {
+    width: auto;
+}
+
+
+/* Styles for the page 'INICIO' */
+.backgroundTitleInicio {
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.titleInicio {
+    font-size: 45px !important;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-align: center; 
+    width: 100%; 
+    margin-left: -200px;
+    margin-bottom: 15px;
+}
+
+.backgroundImageInicio {
+    background-color: burlywood !important;
+    width: 100%;
+    height: auto; 
+    padding: 5px 10px;
+    display: flex;
+    align-items: center; 
+}
+
+.imageInicio {
+    margin-top: 10px;
+}
+
+.backgroundButtonsInicio {
+    background-color: burlywood !important;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.buttonsInicio {
+    margin: 0 10px !important;
+    margin-bottom: 5px !important;
+    color: black !important; 
+    background-color: transparent !important; 
+}
+
+.backgroundCharactersInicio {
+    background-color: darkgray !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: 100%; 
+    max-width: 70%; 
+    padding: 20px 50px;
+    margin: 25px auto;   
+}
+
+.charactersInicioWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px; 
+}
+
+.characterBackground {
+    position: absolute;
+    width: 120px; 
+    height: 120px; 
+    z-index: 0; 
+}
+
+.charactersInicio {
+    position: relative;
+    width: 145px; 
+    height: 145px;
+    z-index: 1; 
+    right: 13px;
+    bottom: 13px;
+    transition: transform 0.3s; 
+}
+
+.charactersInicio:hover {
+    transform: scale(1.03); 
+}
+
+.spriteOverlayRarity {
+    position: absolute;
+    bottom: 10px;
+    left: -20px;
+    z-index: 2;  
+}
+
+.spriteOverlayType {
+    position: absolute;
+    width: 50px;
+    bottom: 110px;
+    right: 12px;
+    z-index: 2; 
+}
+
+
+/* Styles for the page 'NEWS' */
+
+
+/* Styles for the page 'SUMMONS' */

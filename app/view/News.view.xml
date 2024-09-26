@@ -15,19 +15,16 @@
 
         <Page
             showHeader="false"
-            class="fondoWeb"
+            class="backgroundWeb"
         >
             <FlexBox
-                class="fondoHeaders"
+                class="backgroundHeaders"
                 alignContent="Center"
                 justifyContent="Center"
                 alignItems="Center"
             >   
-                <Text text="News" class="tituloHeaders"/>
+                <Text text="News" class="titleHeaders"/>
             </FlexBox>
-
-            
-
         </Page>
         
     </App>

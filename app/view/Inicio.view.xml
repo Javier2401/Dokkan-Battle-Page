@@ -14,33 +14,34 @@
 
         <Page 
             showHeader="false"
-            class="fondoWeb" 
+            class="backgroundWeb" 
         >
             <HBox 
                 alignItems="Center"    
-                class="fondoImagenInicio"
+                class="backgroundImageInicio"
                 width="100%" 
             >
                 <Image 
-                    src="../images/titulo.png"
+                    src="../images/titles/titleApplication.png"
                     height="120px"
                     width="200px"
                     class="imagenInicio"
                 />
 
-                <VBox class="fondoTituloInicio" width="100%" alignItems="Center">
-                    <Text text="DRAGON BALL Z DOKKAN BATTLE INFO PAGE" textAlign="Center" class="tituloInicio" />
+                <VBox class="backgroundTitleInicio" width="100%" alignItems="Center">
+                    <Text text="DRAGON BALL Z DOKKAN BATTLE INFO PAGE" textAlign="Center" class="titleInicio" />
                 </VBox>
             </HBox>
+
 
             <HBox 
                 justifyContent="Center"  
                 alignItems="Center"    
-                class="fondoBotonesInicio"  
+                class="backgroundButtonsInicio"  
             >
-                <Button id="botonNews" text="NEWS" class="botonesInicio" press="onCambiarPantalla1" />
+                <Button id="botonNews" text="NEWS" class="buttonsInicio" press="onCambiarPantallaNews" />
 
-                <MenuButton text="CHARACTERS" class="botonesInicio">
+                <MenuButton text="CHARACTERS" class="buttonsInicio">
                     <Menu>
                         <MenuItem id="botonName" text="Name"/>
                         <MenuItem text="Rarities">
@@ -89,7 +90,7 @@
                     </Menu>
                 </MenuButton>
 
-                <MenuButton text="EVENTS" class="botonesInicio">
+                <MenuButton text="EVENTS" class="buttonsInicio">
                     <Menu>
                         <MenuItem id="botonEventosI" text="Events I" />
                         <MenuItem id="botonEventosII" text="Events II" />
@@ -97,9 +98,9 @@
                     </Menu>
                 </MenuButton>
 
-                <Button text="SUMMONS" id="botonSummons" class="botonesInicio" press="onCambiarPantalla2"/>
+                <Button text="SUMMONS" id="botonSummons" class="buttonsInicio" press="onCambiarPantallaSummons"/>
 
-                <MenuButton text="ITEMS" class="botonesInicio">
+                <MenuButton text="ITEMS" class="buttonsInicio">
                     <Menu>
                         <MenuItem text="Awakening Medals">
                             <items>
@@ -131,32 +132,214 @@
             </HBox>
 
 
-            <VBox 
-                class="fondoPersonajesInicio" 
+            <HBox 
                 alignItems="Center" 
+                justifyContent="Center" 
+                wrap="Wrap"
+                class="backgroundCharactersInicio"
             >
-                <Text text="Upcoming Cards" textAlign="Center" class="tituloPersonajesInicio" />
-                <HBox 
-                    alignItems="Center" 
-                    justifyContent="Center" 
-                    class="fondoPersonajesInicio"
-                >
+                <!-- EXAMPLE CHARACTER 'SUPER AGL' -->
+                <VBox class="charactersInicioWrapper " id = "superAGL">
                     <Image 
-                        src="https://dokkan.art/assets/thumb/card_4029480_thumb.webp" 
-                        class="personajesInicio personajeRojo"
+                        src="https://glben.dokkaninfo.com/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_00_05.png" 
+                        class="characterBackground"
                     />
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1027120_thumb.png" 
+                        class="charactersInicio"
+                        press = "pruebaToast"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_10.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
 
+                <!-- EXAMPLE CHARACTER 'SUPER TEQ' -->
+                <VBox class="charactersInicioWrapper " id = "superTEQ">
                     <Image 
-                        src="https://dokkan.art/assets/thumb/card_1029440_thumb.webp" 
-                        class="personajesInicio personajeVerde"
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_01_05.png" 
+                        class="characterBackground"
                     />
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1029050_thumb.png" 
+                        class="charactersInicio"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_11.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
 
+                <!-- EXAMPLE CHARACTER 'SUPER INT' -->
+                <VBox class="charactersInicioWrapper " id = "superINT">
                     <Image 
-                        src="https://dokkan.art/assets/thumb/card_1029620_thumb.webp" 
-                        class="personajesInicio personajeVerde"
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_02_05.png" 
+                        class="characterBackground"
                     />
-                </HBox>
-            </VBox>
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1028370_thumb.png"
+                        class="charactersInicio"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_12.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'SUPER STR' -->
+                <VBox class="charactersInicioWrapper " id = "superSTR">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_03_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029470_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_13.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'SUPER PHY' -->
+                <VBox class="charactersInicioWrapper ">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029360_thumb.png" 
+                        class="charactersInicio"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_14.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME AGL' -->
+                <VBox class="charactersInicioWrapper " id = "extremeAGL">
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_00_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1027040_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_20.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME TEQ' -->
+                <VBox class="charactersInicioWrapper" id = "extremeTEQ">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_01_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029400_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_21.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME INT' -->
+                <VBox class="charactersInicioWrapper" id = "extremeINT">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_02_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029440_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_22.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME STR' -->
+                <VBox class="charactersInicioWrapper " id = "extremeSTR">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_03_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1028960_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_23.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME PHY' -->
+                <VBox class="charactersInicioWrapper " id = "extremePHY">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png"
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1029270_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_24.png" 
+                        class="spriteOverlayType"
+                    />
+                </VBox>
+               
+            </HBox>
             
         </Page>
 

@@ -15,15 +15,15 @@
 
         <Page 
             showHeader = "false"
-            class = "fondoWeb"
+            class = "backgroundWeb"
         >
             <FlexBox
-                class="fondoHeaders"
+                class="backgroundHeaders"
                 alignContent="Center"
                 justifyContent="Center"
                 alignItems="Center"
             >   
-                <Text text="Summons" class="tituloHeaders"/>
+                <Text text="Summons" class="titleHeaders"/>
             </FlexBox>
         
         </Page>
