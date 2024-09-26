@@ -138,6 +138,141 @@
                 wrap="Wrap"
                 class="backgroundCharactersInicio"
             >
+                <VBox width="100%" class="backgroundTextCharactersInicio">
+                    <Text text="Upcoming Characters" class="backgroundTextCharactersInicio" />
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'SUPER PHY' -->
+                <VBox class="charactersInicioWrapper ">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029360_thumb.png" 
+                        class="charactersInicio"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_14.png" 
+                        class="spriteOverlayType"
+                    />
+                    <VBox class="dateContainer">
+                        <Text text="26/09/2024 14:35 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME TEQ' -->
+                <VBox class="charactersInicioWrapper" id = "extremeTEQ">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_01_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029400_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_21.png" 
+                        class="spriteOverlayType"
+                    />
+                    <VBox class="dateContainer">
+                        <Text text="26/09/2024 14:35 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'SUPER STR' -->
+                <VBox class="charactersInicioWrapper " id = "superSTR">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_03_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029470_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_13.png" 
+                        class="spriteOverlayType"
+                    />
+                    <VBox class="dateContainer">
+                        <Text text="26/09/2024 14:35 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME INT' -->
+                <VBox class="charactersInicioWrapper" id = "extremeINT">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_02_05.png" 
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029440_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_22.png" 
+                        class="spriteOverlayType"
+                    />
+                    <VBox class="dateContainer">
+                        <Text text="26/09/2024 14:35 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
+                </VBox>
+
+                <!-- EXAMPLE CHARACTER 'EXTREME PHY EZA' -->
+                <VBox class="charactersInicioWrapper " id = "extremePHY">
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png"
+                        class="characterBackground"
+                    />
+                    <Image 
+                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1029270_thumb.png" 
+                        class="charactersInicio TEQ"
+                    />
+                    <Image 
+                        src="./images/sprites/spriteLR.png" 
+                        class="spriteOverlayRarity LR"
+                    />
+                    <Image 
+                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_24.png" 
+                        class="spriteOverlayType"
+                    />
+                    <Image 
+                        src="https://dokkaninfo.com/assets/global/en/layout/en/image/charamenu/dokkan/dok_img_kyokugen.png" 
+                        class="spriteOverlayEza"
+                    />
+                    <VBox class="dateContainer">
+                        <Text text="26/09/2024 14:35 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
+                </VBox>
+            </HBox>
+
+
+            <HBox 
+                alignItems="Center" 
+                justifyContent="Center" 
+                wrap="Wrap"
+                class="backgroundCharactersInicio"
+            >
+                <VBox width="100%" class="backgroundTextCharactersInicio">
+                    <Text text="Recent Characters" class="backgroundTextCharactersInicio" />
+                </VBox>
+
                 <!-- EXAMPLE CHARACTER 'SUPER AGL' -->
                 <VBox class="charactersInicioWrapper " id = "superAGL">
                     <Image 
@@ -199,46 +334,6 @@
                     />
                 </VBox>
 
-                <!-- EXAMPLE CHARACTER 'SUPER STR' -->
-                <VBox class="charactersInicioWrapper " id = "superSTR">
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_03_05.png" 
-                        class="characterBackground"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029470_thumb.png" 
-                        class="charactersInicio TEQ"
-                    />
-                    <Image 
-                        src="./images/sprites/spriteLR.png" 
-                        class="spriteOverlayRarity LR"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_13.png" 
-                        class="spriteOverlayType"
-                    />
-                </VBox>
-
-                <!-- EXAMPLE CHARACTER 'SUPER PHY' -->
-                <VBox class="charactersInicioWrapper ">
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png" 
-                        class="characterBackground"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029360_thumb.png" 
-                        class="charactersInicio"
-                    />
-                    <Image 
-                        src="./images/sprites/spriteLR.png" 
-                        class="spriteOverlayRarity LR"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_14.png" 
-                        class="spriteOverlayType"
-                    />
-                </VBox>
-
                 <!-- EXAMPLE CHARACTER 'EXTREME AGL' -->
                 <VBox class="charactersInicioWrapper " id = "extremeAGL">
                     <Image 
@@ -255,46 +350,6 @@
                     />
                     <Image 
                         src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_20.png" 
-                        class="spriteOverlayType"
-                    />
-                </VBox>
-
-                <!-- EXAMPLE CHARACTER 'EXTREME TEQ' -->
-                <VBox class="charactersInicioWrapper" id = "extremeTEQ">
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_01_05.png" 
-                        class="characterBackground"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029400_thumb.png" 
-                        class="charactersInicio TEQ"
-                    />
-                    <Image 
-                        src="./images/sprites/spriteLR.png" 
-                        class="spriteOverlayRarity LR"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_21.png" 
-                        class="spriteOverlayType"
-                    />
-                </VBox>
-
-                <!-- EXAMPLE CHARACTER 'EXTREME INT' -->
-                <VBox class="charactersInicioWrapper" id = "extremeINT">
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_02_05.png" 
-                        class="characterBackground"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029440_thumb.png" 
-                        class="charactersInicio TEQ"
-                    />
-                    <Image 
-                        src="./images/sprites/spriteLR.png" 
-                        class="spriteOverlayRarity LR"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_22.png" 
                         class="spriteOverlayType"
                     />
                 </VBox>
@@ -318,27 +373,6 @@
                         class="spriteOverlayType"
                     />
                 </VBox>
-
-                <!-- EXAMPLE CHARACTER 'EXTREME PHY' -->
-                <VBox class="charactersInicioWrapper " id = "extremePHY">
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png"
-                        class="characterBackground"
-                    />
-                    <Image 
-                        src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1029270_thumb.png" 
-                        class="charactersInicio TEQ"
-                    />
-                    <Image 
-                        src="./images/sprites/spriteLR.png" 
-                        class="spriteOverlayRarity LR"
-                    />
-                    <Image 
-                        src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_24.png" 
-                        class="spriteOverlayType"
-                    />
-                </VBox>
-               
             </HBox>
             
         </Page>
