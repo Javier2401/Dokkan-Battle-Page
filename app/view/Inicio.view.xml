@@ -282,7 +282,7 @@
                     <Image 
                         src="https://glben.dokkaninfo.com/assets/global/en/character/thumb/card_1027120_thumb.png" 
                         class="charactersInicio"
-                        press = "pruebaToast"
+                        press = "onCambiarPantallaCharacterDetails"
                     />
                     <Image 
                         src="./images/sprites/spriteLR.png" 

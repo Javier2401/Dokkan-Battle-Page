@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="DokkanProject.controller.Character-Details"
+    xmlns:cssgrid="sap.ui.layout.cssgrid"
+    xmlns:f="sap.f"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+>
+    <App id="Character-Details">
+     
+     
+    </App>
+</mvc:View>

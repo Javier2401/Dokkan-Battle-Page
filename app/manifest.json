@@ -56,6 +56,11 @@
           "pattern": "summons",
           "name": "Summons",
           "target": "Summons"
+        },
+        {
+          "pattern": "character-details",
+          "name": "Character-Details",
+          "target": "Character-Details"
         }
       ],
       "targets": {
@@ -85,6 +90,15 @@
           "viewName": "Summons",
           "viewId": "Summons",
           "viewLevel": 3
+        },
+        "Character-Details": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "Character-Details",
+          "viewId": "Character-Details",
+          "viewLevel": 4
         }
       }
     }

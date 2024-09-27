@@ -10,16 +10,9 @@ sap.ui.define([
 
         },
 
-        pruebaToast: function() {
-            MessageToast.show("Funciona");
-
-            // var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            // oRouter.navTo("");
-        },
-
-        onCambiarPantallaCharacterInfo: function() {
+        onCambiarPantallaCharacterDetails: function() {
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            oRouter.navTo("");
+            oRouter.navTo("Character-Details");
         },
 
         onCambiarPantallaNews: function() {
@@ -30,7 +23,7 @@ sap.ui.define([
         onCambiarPantallaSummons: function() {
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
             oRouter.navTo("Summons");
-        }
+        },
         
     });
     
