@@ -11,7 +11,94 @@
     xmlns:u="sap.ui.unified"
 >
     <App id="Character-Details">
-     
-     
+        <Page 
+            showHeader="false"
+            class="backgroundWeb" 
+        >
+            <HBox class="pageContainer">
+                
+                <HBox class="backgroundIconCharactersDetails">
+                    <VBox class = "iconCharactersDetails">
+                        <Image 
+                            src="https://dokkan.wiki/assets/global/en/layout/en/image/character/character_thumb_bg/cha_base_04_05.png" 
+                            class="characterBackground"
+                        />
+                        <Image 
+                            src="https://dokkan.wiki/assets/global/en/character/thumb/card_1029360_thumb.png" 
+                            class="charactersInicio"
+                        />
+                        <Image 
+                            src="./images/sprites/spriteLR.png" 
+                            class="spriteOverlayRarity LR"
+                        />
+                        <Image 
+                            src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_14.png" 
+                            class="spriteOverlayType"
+                        />
+                    </VBox>
+                </HBox>
+
+                <HBox class="backgroundTitleCharactersDetails">
+                    <VBox class = "titleCharactersDetails">
+                        <Text 
+                            text="[Fierce Clash of Burning Power] &#10; Super Saiyan Goku &amp; Super Saiyan Gohan (Youth) &amp; Super Saiyan Trunks (Teen)"
+                            class = "styleTitleCharactersDetails"
+                            textAlign="Center"
+                        />
+                    </VBox>
+                </HBox>
+            </HBox>
+
+
+            <HBox class = "pageContainer">
+                <HBox class = "backgroundCardImageCharactersDetails">
+                    <VBox class = "cardImageCharactersDetails">
+                        <Image src="../images/cards/card-1029361.png" 
+                        class = "" 
+                        />
+                    </VBox>
+                </HBox>
+
+                <HBox class = "backgroundInformationCharactersDetails">
+                    <VBox class = "informationCharactersDetails">
+                        <Text 
+                            text="LEADER SKILL" 
+                            class = "styleTitlesInformationCharactersDetails"
+                            textAlign="Center"
+                        />
+
+                        <Text 
+                            text="'Desperate Struggle', 'Super Saiyans' or 'Power of Wishes' Category Ki +3 and HP, ATK &amp; DEF +170%, plus an additional HP, ATK &amp; DEF +30% for characters who also belong to the 'Movie Heroes'or 'Connected Hope' Category" 
+                            class = "styleInformationCharactersDetails" 
+                            textAlign="Center"
+                        />
+
+                        <Text 
+                            text="&#10; PASSIVE SKILL" 
+                            class = "styleTitlesInformationCharactersDetails"
+                            textAlign="Center"
+                        />
+
+                        <Text 
+                            text = "• Ki +3 and ATK &amp; DEF +200%
+• Randomly changes Ki Spheres of a certain Type (PHY excluded) to PHY Ki Spheres
+• Plus an additional Ki +2 per PHY Ki Sphere obtained
+• Plus an additional Ki +1 per Type Ki Sphere obtained (PHY excluded)
+• All allies' Ki +3 and ATK +50% (self excluded)
+• Reduces damage received by 30% temporarily when receiving a Super Attack
+• Plus an additional DEF +30% when receiving an attack for every 3 Ki
+• Plus an additional ATK +150% when Ki is 12 or more
+• Launches 2 additional attacks, each of which has a high chance of becoming a Super Attack, when Ki is 18 or more
+• Attacks effective against all Types when Ki is 24
+• If there is another 'Movie Heroes' or 'Desperate Struggle' Category ally attacking in the same turn, plus an additional damage reduction of 15% and, for 2 turns, all allies' DEF +77%"
+                            class = "styleInformationCharactersDetails" 
+                            textAlign="Center"
+                        />
+                    </VBox>
+                </HBox>
+            </HBox>
+
+        </Page>
+
     </App>
 </mvc:View>
