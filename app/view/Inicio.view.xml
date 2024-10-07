@@ -292,6 +292,9 @@
                         src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_10.png" 
                         class="spriteOverlayType"
                     />
+                    <VBox class="dateContainer">
+                        <Text text="07/10/2024 10:20 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
                 </VBox>
 
                 <!-- EXAMPLE CHARACTER 'SUPER TEQ' -->
@@ -312,6 +315,9 @@
                         src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_11.png" 
                         class="spriteOverlayType"
                     />
+                    <VBox class="dateContainer">
+                        <Text text="07/10/2024 10:20 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
                 </VBox>
 
                 <!-- EXAMPLE CHARACTER 'SUPER INT' -->
@@ -332,6 +338,9 @@
                         src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_12.png" 
                         class="spriteOverlayType"
                     />
+                    <VBox class="dateContainer">
+                        <Text text="07/10/2024 10:20 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
                 </VBox>
 
                 <!-- EXAMPLE CHARACTER 'EXTREME AGL' -->
@@ -352,6 +361,9 @@
                         src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_20.png" 
                         class="spriteOverlayType"
                     />
+                    <VBox class="dateContainer">
+                        <Text text="07/10/2024 10:20 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
                 </VBox>
 
                 <!-- EXAMPLE CHARACTER 'EXTREME STR' -->
@@ -372,6 +384,9 @@
                         src="https://dokkan.wiki/assets/global/en/layout/en/image/character/cha_type_icon_23.png" 
                         class="spriteOverlayType"
                     />
+                    <VBox class="dateContainer">
+                        <Text text="07/10/2024 10:20 CEST" class="dateText" textAlign="Center"/>
+                    </VBox>
                 </VBox>
             </HBox>
             

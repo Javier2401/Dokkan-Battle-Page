@@ -192,38 +192,40 @@
 /* --------- Styles for the page 'SUMMONS' --------- */
 
 
+/* --------- Styles for the page '' --------- */
+
+
 /* --------- Styles for the page 'CHARACTERS-DETAILS' --------- */
 .pageContainer {
     display: flex;
     flex-wrap: wrap;
-    width: 100%; 
+    width: 100%;
+    margin: 5% 10%; 
 }
 
 .backgroundIconCharactersDetails {
     background-color: darkgray !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    display: flex;
+    width: 30%;
+    display: flex;                
+    justify-content: center;      
     align-items: center;
-    height: auto;
-    width: 35%;
-    padding: 10px 20px;
-    margin: 50px 100px; 
+    padding: 10px 200px;
 }
 
 .iconCharactersDetails {
-    margin-top: 15px;
-    margin-left: 175px;
+
 }
 
 .backgroundTitleCharactersDetails {
     background-color: darkgray !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    height: auto;
-    width: 50%;
-    padding: 20px 20px;
-    margin: 50px -90px;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;
+    padding: 35px 200px;
 }
 
 .titleCharactersDetails {
@@ -231,7 +233,7 @@
 }
 
 .styleTitleCharactersDetails {
-    font-size: 25px !important;
+    font-size: 30px !important;
     font-weight: bold;
 }
 
@@ -239,24 +241,21 @@
     background-color: darkgray !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    height: auto;
-    width: 35%;
-    padding: 20px 20px;
-    margin: -40px 100px;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;
+    padding: 10px 59px;
 }
 
 .cardImageCharactersDetails {
-    margin-left: 15px;
+    
 }
 
 .backgroundInformationCharactersDetails {
     background-color: darkgray !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    height: auto;
-    width: 50%;
     padding: 20px 20px;
-    margin: -40px -90px;
 }
 
 .informationCharactersDetails {

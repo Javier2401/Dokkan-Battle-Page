@@ -81,18 +81,18 @@
 
                         <Text 
                             text = "• Ki +3 and ATK &amp; DEF +200%
-• Randomly changes Ki Spheres of a certain Type (PHY excluded) to PHY Ki Spheres
-• Plus an additional Ki +2 per PHY Ki Sphere obtained
-• Plus an additional Ki +1 per Type Ki Sphere obtained (PHY excluded)
-• All allies' Ki +3 and ATK +50% (self excluded)
-• Reduces damage received by 30% temporarily when receiving a Super Attack
-• Plus an additional DEF +30% when receiving an attack for every 3 Ki
-• Plus an additional ATK +150% when Ki is 12 or more
-• Launches 2 additional attacks, each of which has a high chance of becoming a Super Attack, when Ki is 18 or more
-• Attacks effective against all Types when Ki is 24
-• If there is another 'Movie Heroes' or 'Desperate Struggle' Category ally attacking in the same turn, plus an additional damage reduction of 15% and, for 2 turns, all allies' DEF +77%"
+                                &#10; • Randomly changes Ki Spheres of a certain Type (PHY excluded) to PHY Ki Spheres
+                                &#10; • Plus an additional Ki +2 per PHY Ki Sphere obtained
+                                &#10; • Plus an additional Ki +1 per Type Ki Sphere obtained (PHY excluded)
+                                &#10; • All allies' Ki +3 and ATK +50% (self excluded)
+                                &#10; • Reduces damage received by 30% temporarily when receiving a Super Attack
+                                &#10; • Plus an additional DEF +30% when receiving an attack for every 3 Ki
+                                &#10; • Plus an additional ATK +150% when Ki is 12 or more
+                                &#10;• Launches 2 additional attacks, each of which has a high chance of becoming a Super Attack, when Ki is 18 or more
+                                &#10;• Attacks effective against all Types when Ki is 24
+                                &#10;• If there is another 'Movie Heroes' or 'Desperate Struggle' Category ally attacking in the same turn, plus an additional damage reduction of 15% and, for 2 turns, all allies' DEF +77%"
                             class = "styleInformationCharactersDetails" 
-                            textAlign="Center"
+                            textAlign="Begin"
                         />
                     </VBox>
                 </HBox>

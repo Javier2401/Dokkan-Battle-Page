@@ -78,7 +78,7 @@
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "News",
+          "viewName": "newsView/News",
           "viewId": "News",
           "viewLevel": 2
         },
@@ -87,7 +87,7 @@
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "Summons",
+          "viewName": "summonsView/Summons",
           "viewId": "Summons",
           "viewLevel": 3
         },
@@ -96,7 +96,7 @@
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "Character-Details",
+          "viewName": "charactersViews/Character-Details",
           "viewId": "Character-Details",
           "viewLevel": 4
         }
