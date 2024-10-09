@@ -41,9 +41,9 @@
             >
                 <Button id="botonNews" text="NEWS" class="buttonsInicio" press="onCambiarPantallaNews" />
 
-                <MenuButton text="CHARACTERS" class="buttonsInicio">
+                <MenuButton text="CHARACTERS" class="buttonsInicio" >
                     <Menu>
-                        <MenuItem id="botonName" text="Name"/>
+                        <MenuItem id="botonName" text="Name" press = "onCambiarPantallaCharacters"/>
                         <MenuItem text="Rarities">
                             <items>
                                 <MenuItem id="botonEZA" text="EZA's"/>

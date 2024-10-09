@@ -131,7 +131,7 @@
     justify-content: center;
     position: relative;
     height: auto;
-    width: 1000px; 
+    width: 90%; 
     padding: 20px 50px;
     margin: 25px auto;   
 }
@@ -187,12 +187,58 @@
 
 
 /* --------- Styles for the page 'NEWS' --------- */
+.backgroundInfoNews {
+    background-color: darkgray !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    position: relative;
+    height: auto;
+    width: 90%; 
+    padding: 20px 0px;
+    margin: 25px auto;   
+}
+
+.infoNewsWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 15px 25px;
+    text-align: center;
+}
+
+.imageInfoNews {
+    width: 425px;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.mainTextNews {
+    font-weight: bold;
+    font-size: 30px !important;
+    padding: 0px 0px;
+}
+
+.secondaryTextNews {
+    font-size: 17.5px !important;
+    max-width: max-content ;
+    padding: 10px 0px;
+}
 
 
 /* --------- Styles for the page 'SUMMONS' --------- */
 
 
-/* --------- Styles for the page '' --------- */
+/* --------- Styles for the page 'ITEMS' --------- */
+
+
+/* --------- Styles for the page 'EVENTS' --------- */
 
 
 /* --------- Styles for the page 'CHARACTERS-DETAILS' --------- */
@@ -200,7 +246,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 5% 10%; 
 }
 
 .backgroundIconCharactersDetails {
@@ -215,7 +260,6 @@
 }
 
 .iconCharactersDetails {
-
 }
 
 .backgroundTitleCharactersDetails {
@@ -248,7 +292,6 @@
 }
 
 .cardImageCharactersDetails {
-    
 }
 
 .backgroundInformationCharactersDetails {
@@ -259,7 +302,6 @@
 }
 
 .informationCharactersDetails {
-
 }
 
 .styleTitlesInformationCharactersDetails {

@@ -6,6 +6,11 @@ sap.ui.define([
 
         onInit: function() {
             console.log("Bienvenido a la pagina 'News'");
+        },
+
+        onCambiarPantallaNewsDetails: function() {
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("News-Details");
         }
 
     });

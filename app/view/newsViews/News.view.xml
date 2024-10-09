@@ -12,7 +12,6 @@
 >
 
     <App id="News">
-
         <Page
             showHeader="false"
             class="backgroundWeb"
@@ -25,8 +24,57 @@
             >   
                 <Text text="News" class="titleHeaders"/>
             </FlexBox>
+
+
+            <HBox 
+                alignItems="Center" 
+                justifyContent="Center" 
+                wrap="Wrap"
+                class = "backgroundInfoNews"
+            >
+                <VBox 
+                    class = "infoNewsWrapper"
+                >
+                    <Image 
+                        src = "https://dokkaninfo.com/assets/japan/ingame/missions/mission_banner_event_zbattle_004.png"
+                        class = "imageInfoNews"
+                        press = "onCambiarPantallaNewsDetails"
+                    />
+
+                    <Text text = "FRIEZA SUPER EZA" class = "mainTextNews" textAlign="Center"/>
+                    <Text text = "Amo la carita de Alicia Tortosa Municio la quiero con locura" class ="secondaryTextNews"/>
+                    <Text text = "09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                </VBox>
+                
+                <VBox 
+                    class = "infoNewsWrapper"
+                >
+                    <Image 
+                        src = "https://dokkaninfo.com/assets/japan/ingame/missions/mission_banner_event_zbattle_004.png"
+                        class = "imageInfoNews"
+                    />
+
+                    <Text text = "FRIEZA SUPER EZA" class = "mainTextNews" textAlign="Center"/>
+                    <Text text = "Amo la carita de Alicia Tortosa Municio la quiero con locura" class ="secondaryTextNews"/>
+                    <Text text = "09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                </VBox>
+            
+                <VBox 
+                    class = "infoNewsWrapper"
+                >
+                    <Image 
+                        src = "https://dokkaninfo.com/assets/japan/ingame/missions/mission_banner_event_zbattle_004.png"
+                        class = "imageInfoNews"
+                    />
+
+                    <Text text = "FRIEZA SUPER EZA" class = "mainTextNews" textAlign="Center"/>
+                    <Text text = "Amo la carita de Alicia Tortosa Municio la quiero con locura" class ="secondaryTextNews"/>
+                    <Text text = "09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                </VBox>
+            
+            </HBox>
+
         </Page>
-        
     </App>
 
 </mvc:View>

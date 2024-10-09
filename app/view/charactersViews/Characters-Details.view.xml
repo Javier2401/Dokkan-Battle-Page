@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="DokkanProject.controller.Character-Details"
+    controllerName="DokkanProject.controller.Characters-Details"
     xmlns:cssgrid="sap.ui.layout.cssgrid"
     xmlns:f="sap.f"
     displayBlock="true"
@@ -10,7 +10,7 @@
     xmlns:tnt="sap.tnt"
     xmlns:u="sap.ui.unified"
 >
-    <App id="Character-Details">
+    <App id="Characters-Details">
         <Page 
             showHeader="false"
             class="backgroundWeb" 

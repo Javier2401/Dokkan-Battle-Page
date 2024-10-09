@@ -47,20 +47,33 @@
           "name": "Inicio",
           "target": "Inicio"
         },
+
         {
           "pattern": "news",
           "name": "News",
           "target": "News"
         },
         {
+          "pattern": "news-details",
+          "name": "News-Details",
+          "target": "News-Details"
+        },
+
+        {
           "pattern": "summons",
           "name": "Summons",
           "target": "Summons"
         },
+
         {
-          "pattern": "character-details",
-          "name": "Character-Details",
-          "target": "Character-Details"
+          "pattern": "characters",
+          "name": "Characters",
+          "target": "Characters"
+        },
+        {
+          "pattern": "characters-details",
+          "name": "Characters-Details",
+          "target": "Characters-Details"
         }
       ],
       "targets": {
@@ -73,32 +86,54 @@
           "viewId": "Inicio",
           "viewLevel": 1
         },
+
         "News": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "newsView/News",
+          "viewName": "newsViews/News",
           "viewId": "News",
           "viewLevel": 2
         },
+        "News-Details": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "newsViews/News-Details",
+          "viewId": "News-Details",
+          "viewLevel": 3
+        },
+
+
         "Summons": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "summonsView/Summons",
+          "viewName": "summonsViews/Summons",
           "viewId": "Summons",
-          "viewLevel": 3
+          "viewLevel": 2
         },
-        "Character-Details": {
+
+        "Characters": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "charactersViews/Character-Details",
-          "viewId": "Character-Details",
-          "viewLevel": 4
+          "viewName": "charactersViews/Characters",
+          "viewId": "Characters",
+          "viewLevel": 2
+        },
+        "Characters-Details": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "charactersViews/Characters-Details",
+          "viewId": "Characters-Details",
+          "viewLevel": 3
         }
       }
     }
