@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="DokkanProject.controller.News"
+    controllerName="DokkanProject.controller.newsController.News"
     xmlns:cssgrid="sap.ui.layout.cssgrid"
     xmlns:f="sap.f"
     displayBlock="true"
@@ -15,6 +15,7 @@
         <Page
             showHeader="false"
             class="backgroundWeb"
+            showNavButton="true"
         >
             <FlexBox
                 class="backgroundHeaders"
@@ -36,13 +37,13 @@
                     class = "infoNewsWrapper"
                 >
                     <Image 
-                        src = "https://dokkaninfo.com/assets/japan/ingame/missions/mission_banner_event_zbattle_004.png"
+                        src = "https://dokkaninfo.com/assets/japan/ingame/news/news_banner_adventure_36_2_small.png"
                         class = "imageInfoNews"
                         press = "onCambiarPantallaNewsDetails"
                     />
 
-                    <Text text = "FRIEZA SUPER EZA" class = "mainTextNews" textAlign="Center"/>
-                    <Text text = "Amo la carita de Alicia Tortosa Municio la quiero con locura" class ="secondaryTextNews"/>
+                    <Text text = "NEW AREA 36" class = "mainTextNews" textAlign="Center"/>
+                    <Text text = "Bardock can be dokkan awaken into Super Saiyan" class ="secondaryTextNews"/>
                     <Text text = "09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
                 </VBox>
                 
@@ -55,7 +56,7 @@
                     />
 
                     <Text text = "FRIEZA SUPER EZA" class = "mainTextNews" textAlign="Center"/>
-                    <Text text = "Amo la carita de Alicia Tortosa Municio la quiero con locura" class ="secondaryTextNews"/>
+                    <Text text = "Aim to boost the passive of Frieza (Full Power) through Super Eza" class ="secondaryTextNews"/>
                     <Text text = "09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
                 </VBox>
             
@@ -63,12 +64,12 @@
                     class = "infoNewsWrapper"
                 >
                     <Image 
-                        src = "https://dokkaninfo.com/assets/japan/ingame/missions/mission_banner_event_zbattle_004.png"
+                        src = "https://dokkaninfo.com/assets/japan/ingame/news/news_banner_event_zbattle_112_small.png"
                         class = "imageInfoNews"
                     />
 
-                    <Text text = "FRIEZA SUPER EZA" class = "mainTextNews" textAlign="Center"/>
-                    <Text text = "Amo la carita de Alicia Tortosa Municio la quiero con locura" class ="secondaryTextNews"/>
+                    <Text text = "2 NEW SUB EZAS" class = "mainTextNews" textAlign="Center"/>
+                    <Text text = "Aim to Sub EZA Nail and Goku Super Saiyan" class ="secondaryTextNews"/>
                     <Text text = "09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
                 </VBox>
             

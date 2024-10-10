@@ -60,9 +60,21 @@
         },
 
         {
-          "pattern": "summons",
-          "name": "Summons",
-          "target": "Summons"
+          "pattern": "events",
+          "name": "Events",
+          "target": "Events"
+        },
+
+        {
+          "pattern": "banners",
+          "name": "Banners",
+          "target": "Banners"
+        },
+
+        {
+          "pattern": "items",
+          "name": "Items",
+          "target": "Items"
         },
 
         {
@@ -74,6 +86,12 @@
           "pattern": "characters-details",
           "name": "Characters-Details",
           "target": "Characters-Details"
+        },
+
+        {
+          "pattern": "missions",
+          "name": "Missions",
+          "target": "Missions"
         }
       ],
       "targets": {
@@ -106,14 +124,33 @@
           "viewLevel": 3
         },
 
-
-        "Summons": {
+        "Events": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
           "controlAggregation": "pages",
-          "viewName": "summonsViews/Summons",
-          "viewId": "Summons",
+          "viewName": "eventsViews/Events",
+          "viewId": "Events",
+          "viewLevel": 2
+        },
+
+        "Banners": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "bannersViews/Banners",
+          "viewId": "Banners",
+          "viewLevel": 2
+        },
+
+        "Items": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "itemsViews/Items",
+          "viewId": "Items",
           "viewLevel": 2
         },
 
@@ -134,6 +171,16 @@
           "viewName": "charactersViews/Characters-Details",
           "viewId": "Characters-Details",
           "viewLevel": 3
+        },
+
+        "Missions": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "missionsViews/Missions",
+          "viewId": "Missions",
+          "viewLevel": 2
         }
       }
     }

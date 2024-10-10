@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="DokkanProject.controller.newsController.News-Details"
+    controllerName="DokkanProject.controller.eventsController.Events"
     xmlns:cssgrid="sap.ui.layout.cssgrid"
     xmlns:f="sap.f"
     displayBlock="true"
@@ -10,14 +10,13 @@
     xmlns:tnt="sap.tnt"
     xmlns:u="sap.ui.unified"
 >
-    <App id = "News-Details">
-
+    <App id="Events">
+        
         <Page 
-            showHeader = "false"
-            class = "backgroundWeb"
+            showHeader="false"
+            class="backgroundWeb" 
         >
-            <Text text = "PRUEBA NEWS DETAILS"/>
-
+            <Text text = "PRUEBA EVENTS"/>
         </Page>
     </App>
 

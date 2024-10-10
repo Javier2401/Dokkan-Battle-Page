@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="DokkanProject.controller.Characters"
+    controllerName="DokkanProject.controller.charactersController.Characters"
     xmlns:cssgrid="sap.ui.layout.cssgrid"
     xmlns:f="sap.f"
     displayBlock="true"

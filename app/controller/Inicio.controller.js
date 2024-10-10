@@ -1,37 +1,45 @@
 sap.ui.define([
+    "DokkanProject/utils/Utils",
     "sap/ui/core/mvc/Controller",
-    "sap/m/MessageToast" 
+    "sap/m/MessageToast"
 
-], function (Controller, MessageToast) {
+], function (Utils, Controller, MessageToast) {
+    "use strict";
 
     return Controller.extend("DokkanProject.controller.Inicio", {
 
         onInit: function() {
-
-        },
-
-        onCambiarPantallaNews: function() {
-            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            oRouter.navTo("News");
+            console.log(Utils)
         },
 
         onCambiarPantallaSummons: function() {
-            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            oRouter.navTo("Summons");
+            Utils.browseTo(this, "Summons")
         },
 
         onCambiarPantallaCharacters: function() {
-            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            oRouter.navTo("Characters");
+            Utils.browseTo(this, "Characters")
         },
 
         onCambiarPantallaCharacterDetails: function() {
-            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            oRouter.navTo("Characters-Details");
+            Utils.browseTo(this, "Characters-Details");
         },
 
-        
-        
+        onCambiarPantallaEvents: function() {
+            Utils.browseTo(this, "Events");
+        },
+
+        onCambiarPantallaItems: function() {
+            Utils.browseTo(this, "Items");
+        },
+
+        onCambiarPantallaNews: function() {
+            Utils.browseTo(this, "News");
+        },
+
+        onCambiarPantallaMissions: function() {
+            Utils.browseTo(this, "Missions");
+        },
+
     });
     
 });

@@ -23,8 +23,8 @@
             >
                 <Image 
                     src="../images/titles/titleApplication.png"
-                    height="120px"
-                    width="200px"
+                    height="150px"
+                    width="250px"
                     class="imagenInicio"
                 />
 
@@ -92,19 +92,19 @@
 
                 <MenuButton text="EVENTS" class="buttonsInicio">
                     <Menu>
-                        <MenuItem id="botonEventosI" text="Events I" />
+                        <MenuItem id="botonEventosI" text="Events I" press = "onCambiarPantallaEvents"/>
                         <MenuItem id="botonEventosII" text="Events II" />
                         <MenuItem id="botonEventosIII" text="Events III" />
                     </Menu>
                 </MenuButton>
 
-                <Button text="SUMMONS" id="botonSummons" class="buttonsInicio" press="onCambiarPantallaSummons"/>
+                <Button text="BANNERS" id="botonSummons" class="buttonsInicio" press="onCambiarPantallaSummons"/>
 
                 <MenuButton text="ITEMS" class="buttonsInicio">
                     <Menu>
                         <MenuItem text="Awakening Medals">
                             <items>
-                                <MenuItem id="botonAwakeningI" text ="Awakening Medals I"/>
+                                <MenuItem id="botonAwakeningI" text ="Awakening Medals I" press = "onCambiarPantallaItems"/>
                                 <MenuItem id="botonAwakeningII" text ="Awakening Medals II"/>
                             </items>
                         </MenuItem>
@@ -129,6 +129,9 @@
                         </MenuItem>
                     </Menu>
                 </MenuButton>
+
+                <Button text="MISSIONS" id="botonMissions" class="buttonsInicio" press="onCambiarPantallaMissions"/>
+
             </HBox>
 
 

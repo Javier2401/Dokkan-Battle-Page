@@ -59,15 +59,15 @@
 }
 
 .SR {
-    width: auto;
+    width: 10px;
 }
 
 .R {
-    width: auto;
+    width: 10px;
 }
 
 .N {
-    width: auto;
+    width: 10px;
 }
 
 
@@ -232,15 +232,6 @@
 }
 
 
-/* --------- Styles for the page 'SUMMONS' --------- */
-
-
-/* --------- Styles for the page 'ITEMS' --------- */
-
-
-/* --------- Styles for the page 'EVENTS' --------- */
-
-
 /* --------- Styles for the page 'CHARACTERS-DETAILS' --------- */
 .pageContainer {
     display: flex;
@@ -257,9 +248,6 @@
     justify-content: center;      
     align-items: center;
     padding: 10px 200px;
-}
-
-.iconCharactersDetails {
 }
 
 .backgroundTitleCharactersDetails {
@@ -291,17 +279,11 @@
     padding: 10px 59px;
 }
 
-.cardImageCharactersDetails {
-}
-
 .backgroundInformationCharactersDetails {
     background-color: darkgray !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
     padding: 20px 20px;
-}
-
-.informationCharactersDetails {
 }
 
 .styleTitlesInformationCharactersDetails {

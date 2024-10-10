@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="DokkanProject.controller.Summons"
+    controllerName="DokkanProject.controller.bannersController.Banners"
     xmlns:cssgrid="sap.ui.layout.cssgrid"
     xmlns:f="sap.f"
     displayBlock="true"
@@ -11,7 +11,7 @@
     xmlns:u="sap.ui.unified"
 >
 
-    <App id = "Summons">
+    <App id = "Banners">
 
         <Page 
             showHeader = "false"
@@ -23,7 +23,7 @@
                 justifyContent="Center"
                 alignItems="Center"
             >   
-                <Text text="Summons" class="titleHeaders"/>
+                <Text text="Banners" class="titleHeaders"/>
             </FlexBox>
         
         </Page>

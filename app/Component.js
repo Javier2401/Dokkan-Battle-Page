@@ -15,10 +15,12 @@ sap.ui.define([
             UIComponent.prototype.init.apply(this, arguments);
 
             var oModeloGlobal = new JSONModel({
+              
             });
             
             this.setModel(oModeloGlobal, "global"); 
             this.getRouter().initialize();
+
         }
     });
 });
