@@ -1,4 +1,4 @@
-/* --------- Styles used globally throughout the project --------- */
+/* --------- Styles used globally throughout the views --------- */
 .backgroundWeb {
     background-color: aliceblue;
 }
@@ -70,22 +70,18 @@
     width: 10px;
 }
 
-
-/* --------- Styles for the page 'INICIO' --------- */
+/* --------- Styles for the view 'Inicio.view.xml' --------- */
 .backgroundTitleInicio {
     display: flex;
-    justify-content: center;
-    text-align: center;   
+    justify-content: start;
+    text-align: start;   
+    margin-right: 85px;
 }
 
 .titleInicio {
     font-size: 45px !important;
     font-weight: bolder;
-    margin-top: 30px;
     text-align: center; 
-    width: 100%; 
-    margin-left: -200px;
-    margin-bottom: 15px;
 }
 
 .backgroundImageInicio {
@@ -185,8 +181,7 @@
     font-size: 15px !important; 
 }
 
-
-/* --------- Styles for the page 'NEWS' --------- */
+/* --------- Styles for the view 'News.view.xml' --------- */
 .backgroundInfoNews {
     background-color: darkgray !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
@@ -232,72 +227,11 @@
 }
 
 
-/* --------- Styles for the page 'CHARACTERS-DETAILS' --------- */
-.pageContainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.backgroundIconCharactersDetails {
-    background-color: darkgray !important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    width: 30%;
-    display: flex;                
-    justify-content: center;      
-    align-items: center;
-    padding: 10px 200px;
-}
-
-.backgroundTitleCharactersDetails {
-    background-color: darkgray !important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    display: flex;                
-    justify-content: center;      
-    align-items: center;
-    padding: 35px 200px;
-}
-
-.titleCharactersDetails {
-    margin-top: 20px;
-}
-
-.styleTitleCharactersDetails {
-    font-size: 30px !important;
-    font-weight: bold;
-}
-
-.backgroundCardImageCharactersDetails {
-    background-color: darkgray !important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    display: flex;                
-    justify-content: center;      
-    align-items: center;
-    padding: 10px 59px;
-}
-
-.backgroundInformationCharactersDetails {
-    background-color: darkgray !important;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    padding: 20px 20px;
-}
-
-.styleTitlesInformationCharactersDetails {
-    font-size: 30px !important;
-    font-weight: bold;
-    text-align: center;
-}
-
-.styleInformationCharactersDetails {
-    font-size: 25px !important;
-}
-
-
-
-
-
-
+/* --------- Styles for the view 'News-Details.view.xml' --------- */
+/* --------- Styles for the view 'Missions.view.xml' --------- */
+/* --------- Styles for the view 'Items.view.xml' --------- */
+/* --------- Styles for the view 'Events.view.xml' --------- */
+/* --------- Styles for the view 'News-Details.view.xml' --------- */
+/* --------- Styles for the view 'Characters.view.xml' --------- */
+/* --------- Styles for the view 'Characters-Details.view.xml' --------- */
+/* --------- Styles for the view 'Banners.view.xml' --------- */

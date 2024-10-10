@@ -2,8 +2,8 @@
   "name": "Dragon Ball Z Dokkan Battle Info Page",
   "version": "1.0.0",
   "description": "Proyecto creado por Javier Alexander Paltan para la investigacion del entorno CAP, JavaScript, css ...etc",
-  "repository": "<Add your repository here>",
-  "license": "https://github.com/Javier2401/Dokkan-Battle-Page.git",
+  "repository": "https://github.com/Javier2401/Dokkan-Battle-Page.git",
+  "license": "",
   "private": true,
   "dependencies": {
     "@sap/cds": "^8.2.2",

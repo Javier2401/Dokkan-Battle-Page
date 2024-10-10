@@ -12,6 +12,7 @@
 >
 
     <App id="News">
+
         <Page
             showHeader="false"
             class="backgroundWeb"
@@ -76,6 +77,7 @@
             </HBox>
 
         </Page>
+        
     </App>
 
 </mvc:View>

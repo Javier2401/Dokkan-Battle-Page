@@ -4,7 +4,7 @@
     "id": "DokkanProject",
     "type": "application",
     "title": "Dokkan Project",  
-    "description": "Una aplicación SAPUI5 para la información de personajes del videojuego de móvil 'Dokkan Battle'",
+    "description": "Una aplicación SAPUI5 ver todo los vinculado al juego de movil Dragon Ball Z Dokkan Battle",
     "dataSources": {
       "odataService": {
         "uri": "/odata/Caracteres/",

@@ -18,12 +18,18 @@ Despues de todo esto, para ejecutar la aplicacion tendras que ir de nuevo a la t
 
 
 # Planes a futuro
-Ahora mismo el proyecto no esta mas que empezando, todavia queda mucho por investigar y implementar. De una cosa estoy seguro, esta aplicacion aunque cueste en acabarlo 3 o 6 meses mas no parara hasta que tenga todo lo que planee desde un inicio hacer.
+Ahora mismo el proyecto no esta mas que empezando, todavia queda mucho por investigar y implementar. Yo creo que en unos 6 meses se podra tener una version inicial la cual actualizara para mejorarla hasta que este contento con ella.
 
-Voy a ir actualizando esta lista con las temas que tengo que investigar para el desarrollo completo de la aplicación y con :
+Voy a ir actualizando esta lista con las temas que tengo que investigar para el desarrollo de la aplicacion y si son a futuro u cercanos :
 
-    - Investigar como hacer datamining de la base de datos del juego.
-    - Hacer que la aplicacion sea responsive.
-    - Realizar la estructura del backend (Inicio.view.xml realizado).
-    - Hacer un login/registro.
-    - Acabar las paginas 'Characters', 'Events' y 'Items'.
+    CERCANOS:
+        - Investigar como hacer datamining de la base de datos del juego (URGENTE!!). 
+        - Acabar todas las vistas iniciales para tener la estructura del proyecto realizado.
+        - Hacer un login/registro.
+        - Mejorar la navegacion entre pantallas/vistas.
+
+    A FUTURO:
+        - Hacer la aplicacion responsive.
+        - Realizar la estructura del backend .
+        - Automatizar todas las vistas en los JavaScrit cuando tenga las vistas iniciales acabadas con los datos del datamining.
+        - Revisar el CSS para ver si hay posibilidad de optimización (NO PORFAVOR).

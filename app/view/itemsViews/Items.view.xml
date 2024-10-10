@@ -17,7 +17,9 @@
             class="backgroundWeb" 
         >
             <Text text = "PRUEBA Items"/>
+
         </Page>
+        
     </App>
 
 </mvc:View>

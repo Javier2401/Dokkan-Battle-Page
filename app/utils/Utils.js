@@ -7,7 +7,7 @@ sap.ui.define([], function() {
             if (oRouter) {
                 oRouter.navTo(sRuta, oParametros || {}); 
             } else {
-                console.error("Router not found xdddd");
+                console.error("View not found (No funciona AJJAJAJAJAJ)");
             }
         },
     };
