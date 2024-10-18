@@ -70,6 +70,11 @@
           "name": "Banners",
           "target": "Banners"
         },
+        {
+          "pattern": "banners-details",
+          "name": "Banners-Details",
+          "target": "Banners-Details"
+        },
 
         {
           "pattern": "items",
@@ -142,6 +147,15 @@
           "viewName": "bannersViews/Banners",
           "viewId": "Banners",
           "viewLevel": 2
+        },
+        "Banners-Details": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "controlAggregation": "pages",
+          "viewName": "bannersViews/Banners-Details",
+          "viewId": "Banners-Details",
+          "viewLevel": 3
         },
 
         "Items": {

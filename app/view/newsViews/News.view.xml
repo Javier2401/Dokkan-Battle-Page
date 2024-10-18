@@ -27,7 +27,7 @@
                 <Text text="News" class="titleHeaders"/>
             </FlexBox>
 
-
+            
             <HBox 
                 alignItems="Center" 
                 justifyContent="Center" 

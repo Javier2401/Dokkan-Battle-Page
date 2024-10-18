@@ -9,11 +9,11 @@ sap.ui.define([
     return Controller.extend("DokkanProject.controller.Inicio", {
 
         onInit: function() {
-            console.log(Utils)
+            
         },
 
-        onCambiarPantallaSummons: function() {
-            Utils.browseTo(this, "Summons")
+        onCambiarPantallaBanners: function() {
+            Utils.browseTo(this, "Banners")
         },
 
         onCambiarPantallaCharacters: function() {

@@ -26,6 +26,57 @@
                 <Text text="Banners" class="titleHeaders"/>
             </FlexBox>
         
+            <HBox 
+                    alignItems="Center" 
+                    justifyContent="Center" 
+                    wrap="Wrap"
+                    class = "backgroundInfoNews"
+            >
+                    <VBox 
+                        class = "infoBannersWrapper"
+                    >
+                        <Image 
+                            src = "https://dokkaninfo.com/assets/japan/ingame/banners/gasha_top_banner_01649.png"
+                            class = "imageBannersNews"
+                            press="onCambiarPantallaBannersDetails"
+                        />
+
+                        <Text text = "World Tournament Banner I" class = "mainTextNews" textAlign="Center"/>
+                        <Text text = "Aim to obtain Android 8" class ="secondaryTextNews"/>
+                        <Text text = "Start Date: 09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                        <Text text = "End Date: 09/12/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                    </VBox>
+                    
+                    <VBox 
+                        class = "infoBannersWrapper"
+                    >
+                        <Image 
+                            src = "https://dokkaninfo.com/assets/japan/ingame/banners/gasha_top_banner_01650.png"
+                            class = "imageBannersNews"
+                        />
+
+                        <Text text = "World Tournament Banner II" class = "mainTextNews" textAlign="Center"/>
+                        <Text text = "Cell (Full Power) can be Extreme Z Awaken" class ="secondaryTextNews"/>
+                        <Text text = "Start Date: 09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                        <Text text = "End Date: 09/12/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                    </VBox>
+
+                    <VBox 
+                        class = "infoBannersWrapper"
+                    >
+                        <Image 
+                            src = "https://dokkaninfo.com/assets/japan/ingame/banners/gasha_top_banner_01651.png"
+                            class = "imageBannersNews"
+                        />
+
+                        <Text text = "World Tournament Banner III" class = "mainTextNews" textAlign="Center"/>
+                        <Text text = "All possible characters are SRRs, aim to obtain" class ="secondaryTextNews"/>
+                        <Text text = "Start Date: 09/10/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                        <Text text = "End Date: 09/12/2024 - 10:00 - CEST" class = "dateText" textAlign="Center"/>
+                    </VBox>
+                        
+                </HBox>
+
         </Page>
 
     </App>

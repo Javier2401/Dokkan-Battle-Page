@@ -23,8 +23,8 @@
             >
                 <Image 
                     src="../images/titles/titleApplication.png"
-                    height="100px"
-                    width="150px"
+                    height="125px"
+                    width="200px"
                     class="imagenInicio"
                 />
 
@@ -39,49 +39,49 @@
                 alignItems="Center"    
                 class="backgroundButtonsInicio"  
             >
-                <Button id="botonNews" text="NEWS" class="buttonsInicio" press="onCambiarPantallaNews" />
+                <Button text="NEWS" class="buttonsInicio" press="onCambiarPantallaNews" />
 
                 <MenuButton text="CHARACTERS" class="buttonsInicio" >
                     <Menu>
-                        <MenuItem id="botonName" text="Name" press = "onCambiarPantallaCharacters"/>
+                        <MenuItem text="Name" press = "onCambiarPantallaCharacters"/>
                         <MenuItem text="Rarities">
                             <items>
-                                <MenuItem id="botonEZA" text="EZA's"/>
-                                <MenuItem id="botonLR" text="LR"/>
-                                <MenuItem id="botonUR" text="UR"/>
-                                <MenuItem id="botonSSR" text="SSR"/>
-                                <MenuItem id="botonSR" text="SR"/>
-                                <MenuItem id="botonR" text="R"/>
-                                <MenuItem id="botonN" text="N"/>
+                                <MenuItem text="EZA's"/>
+                                <MenuItem text="LR"/>
+                                <MenuItem text="UR"/>
+                                <MenuItem text="SSR"/>
+                                <MenuItem text="SR"/>
+                                <MenuItem text="R"/>
+                                <MenuItem text="N"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Types">
                             <items>
-                                <MenuItem id="botonAGL" text="AGL"/>
-                                <MenuItem id="botonSTR" text="STR"/>
-                                <MenuItem id="botonTEQ" text="TEQ"/>
-                                <MenuItem id="botonPHY" text="PHY"/>
-                                <MenuItem id="botonINT" text="INT"/>
+                                <MenuItem text="AGL"/>
+                                <MenuItem text="STR"/>
+                                <MenuItem text="TEQ"/>
+                                <MenuItem text="PHY"/>
+                                <MenuItem text="INT"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Classes">
                             <items>
                                 <MenuItem text="Super Class">
                                     <items>
-                                        <MenuItem id="botonSuperAGL" text="SUPER AGL"/>
-                                        <MenuItem id="botonSuperSTR" text="SUPER STR"/>
-                                        <MenuItem id="botonSuperTEQ" text="SUPER TEQ"/>
-                                        <MenuItem id="botonSuperPHY" text="SUPER PHY"/>
-                                        <MenuItem id="botonSuperINT" text="SUPER INT"/>
+                                        <MenuItem text="SUPER AGL"/>
+                                        <MenuItem text="SUPER STR"/>
+                                        <MenuItem text="SUPER TEQ"/>
+                                        <MenuItem text="SUPER PHY"/>
+                                        <MenuItem text="SUPER INT"/>
                                     </items>
                                 </MenuItem>
                                 <MenuItem text="Extreme Class">
                                     <items>
-                                        <MenuItem id="botonExtremeAGL" text="EXTREME AGL"/>
-                                        <MenuItem id="botonExtremeSTR" text="EXTREME STR"/>
-                                        <MenuItem id="botonExtremeTEQ" text="EXTREME TEQ"/>
-                                        <MenuItem id="botonExtremePHY" text="EXTREME PHY"/>
-                                        <MenuItem id="botonExtremeINT" text="EXTREME INT"/>
+                                        <MenuItem text="EXTREME AGL"/>
+                                        <MenuItem text="EXTREME STR"/>
+                                        <MenuItem text="EXTREME TEQ"/>
+                                        <MenuItem text="EXTREME PHY"/>
+                                        <MenuItem text="EXTREME INT"/>
                                     </items>
                                 </MenuItem>
                             </items>
@@ -92,45 +92,45 @@
 
                 <MenuButton text="EVENTS" class="buttonsInicio">
                     <Menu>
-                        <MenuItem id="botonEventosI" text="Events I" press = "onCambiarPantallaEvents"/>
-                        <MenuItem id="botonEventosII" text="Events II" />
-                        <MenuItem id="botonEventosIII" text="Events III" />
+                        <MenuItem text="Events I" press = "onCambiarPantallaEvents"/>
+                        <MenuItem text="Events II" />
+                        <MenuItem text="Events III" />
                     </Menu>
                 </MenuButton>
 
-                <Button text="BANNERS" id="botonSummons" class="buttonsInicio" press="onCambiarPantallaSummons"/>
+                <Button text="BANNERS" class="buttonsInicio" press="onCambiarPantallaBanners"/>
 
                 <MenuButton text="ITEMS" class="buttonsInicio">
                     <Menu>
                         <MenuItem text="Awakening Medals">
                             <items>
-                                <MenuItem id="botonAwakeningI" text ="Awakening Medals I" press = "onCambiarPantallaItems"/>
-                                <MenuItem id="botonAwakeningII" text ="Awakening Medals II"/>
+                                <MenuItem text ="Awakening Medals I" press = "onCambiarPantallaItems"/>
+                                <MenuItem text ="Awakening Medals II"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Support">
                             <items>
-                                <MenuItem id="botonSupportItems" text ="Items"/>
-                                <MenuItem id="botonMemories" text ="Memories"/>
+                                <MenuItem text ="Items"/>
+                                <MenuItem text ="Memories"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Training">
                             <items>
-                                <MenuItem id="botonTrainingItems" text ="Items"/>
-                                <MenuItem id="botonTrainingLocation" text ="Location"/>
+                                <MenuItem text ="Items"/>
+                                <MenuItem text ="Location"/>
                             </items>
                         </MenuItem>
                         <MenuItem text="Orbs">
                             <items>
-                                <MenuItem id="botonPotencialOrbs" text ="Potencial Orbs"/>
-                                <MenuItem id="botonSkillOrbs" text ="Skill Orbs"/>
-                                <MenuItem id="botonLinkSkillOrbs" text ="Link Skill Orbs"/>
+                                <MenuItem text ="Potencial Orbs"/>
+                                <MenuItem text ="Skill Orbs"/>
+                                <MenuItem text ="Link Skill Orbs"/>
                             </items>
                         </MenuItem>
                     </Menu>
                 </MenuButton>
 
-                <Button text="MISSIONS" id="botonMissions" class="buttonsInicio" press="onCambiarPantallaMissions"/>
+                <Button text="MISSIONS" class="buttonsInicio" press="onCambiarPantallaMissions"/>
 
             </HBox>
 
